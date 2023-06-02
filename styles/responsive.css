@@ -1,0 +1,214 @@
+
+@media (max-width:420px){
+
+    header{
+        height: 90px;
+    }
+
+    .headerA {
+        height: 30px;
+    }
+
+    .textoA {
+        margin-left:5px;
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .textoB {
+        margin-right: 5px;
+        font-size: 12px;
+        gap: 3px;
+    }
+    
+    .headerB {
+        margin-left: 0px;
+        height: 50px;
+    }
+
+    .menuHeaderB{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(40, 162, 99);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 40%;
+        width: 6%;
+        font-size: 8px;
+        margin-left: 5px;
+        padding: 2px;
+    }
+
+    .logoHeader {
+        height: 50%;
+    }
+
+    .mapa_busquedaHeader {
+        width: 80%;
+        height: 60%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .mapaHeader {
+        display: none;
+    }
+
+    .inputHeader {
+        width: 100%;
+    }
+
+    .iconosHeader {
+        width: 20%;
+        height: 40%;
+        display: flex;
+        gap: 4px;
+        margin-right: 40px;
+    }
+
+    .headerC {
+        display: none;
+    }
+    .categoriasHeader {
+        display: none;
+    }
+
+    .navHeader {
+        display: none;
+    }
+
+    .rayoHeader {
+        display: none;
+    }
+
+    .promociones{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 20px;
+        height: 55%;
+    }
+
+    .unionProductos{
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0; 
+        gap: 35px; 
+        background-color: rgb(252, 252, 252);
+    }
+
+    .categorias{
+        margin-left: 20px;
+        height: 20%;
+        width: 98%;
+        background-color: rgb(246, 246, 246);
+        padding-top: 4px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 10px;
+    }
+
+    .listaCategorias{
+        font-size: 15px;
+        list-style: none; 
+        color: rgb(50, 50, 50); 
+        display:flex; 
+        gap: 10px; 
+    }
+
+    .iconoCategorias{
+        height: 15px;
+    }
+
+    .productos{
+        background-color:rgb(252, 252, 252);
+        width: 95%;
+        height: 100%;
+        margin-left: 25px;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .tituloProductos{
+        font-size: 20px;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
+    .fraseProductos{
+        font-size: 12px;
+        color: rgb(104, 104, 104);
+    }
+
+    .contenedor_imagen{
+        width: 60%;
+        height: 60%;
+        padding: 4px 20px;
+    }
+
+    .contenedor_favorito{
+        position: absolute;
+        width: 8%;
+        border: 1px rgb(62, 62, 62);
+        border-radius: 20px;
+        background-color: rgb(231, 231, 231);
+        cursor: pointer; 
+        color: rgb(109, 109, 109);
+        transition: background-color .2s;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        background-color: lightgreen;
+    }
+    .footer__principal{
+        flex-direction: column;
+        margin: 0;
+    }
+    .div__titulo{
+        font-size: 50px;
+    }
+    .div__parrafo{
+        width: 48%;
+        text-align: center;
+    }
+    .footer__div{
+        align-self: center;
+        margin: 0;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__div1{
+        width: 100%;
+        align-items: center;
+    }
+    .div__container{
+        justify-content: center;
+        align-self: center;
+    }
+    .div__subtitulos{
+        font-size: 23px;
+    }
+    .div__categoriaspan{
+        text-align: center;
+    }
+    .descargar{
+        margin-bottom: 10px;
+    }
+    .footer__secundaria{
+        flex-direction: column;
+    }
+    .derechos{
+        margin-top: 10px;
+    }
+
+}

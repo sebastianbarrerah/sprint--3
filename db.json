@@ -1,0 +1,192 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "categoria": "Snacks",
+      "nombre": "Papas margaritas",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_papa_margarita_105gr_limon_pasabocas_700x700.jpg?v=1620489568"
+    },
+    {
+      "id": 2,
+      "categoria": "Vegetables",
+      "nombre": "Bolsa de tomates",
+      "precio": 10000,
+      "disponibilidad": "In stock",
+      "imagen": "https://mercaldas.vtexassets.com/arquivos/ids/230423-800-auto?v=637840706684100000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 3,
+      "categoria": "Supplies",
+      "nombre": "Aceite",
+      "precio": 8000,
+      "disponibilidad": "In stock",
+      "imagen": "https://exitocol.vtexassets.com/arquivos/ids/13929565/Aceite-Vegetal-FRESCAMPO-3000-ml-3257073_a.jpg?v=637944648796900000"
+    },
+    {
+      "id": 4,
+      "categoria": "Vegetables",
+      "nombre": "Cebolla",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0737/5696/7232/products/cebolla-cabezona-organica.jpg?v=1681861244"
+    },
+    {
+      "id": 5,
+      "categoria": "Bebidas",
+      "nombre": "Gaseosa",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://www.merkadomi.com/wp-content/uploads/2018/07/IMG_0052.jpg"
+    },
+    {
+      "id": 6,
+      "categoria": "Grain",
+      "nombre": "Frijoles",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://us.123rf.com/450wm/lenazajchikova/lenazajchikova2003/lenazajchikova200300083/142758637-frijoles-pintos-dispersos-de-bolsa-de-tela-de-saco-aislado-en-blanco.jpg?ver=6"
+    },
+    {
+      "id": 7,
+      "categoria": "Frutas",
+      "nombre": "Piña",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3415/w700_pi_a.jpg"
+    },
+    {
+      "id": 8,
+      "categoria": "Cleanliness",
+      "nombre": "Toallas de cocina",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://supermercadolaestacion.com/30535-thickbox_default/toallas-para-cocina-acolchamax-extra-grande-decoradas-familia-x-80-unidades.jpg"
+    },
+    {
+      "id": 9,
+      "categoria": "Vegetables",
+      "nombre": "Platano",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0267/9200/1582/products/Platano-Verde-x-1-kg.jpg?v=1594141605"
+    }
+  ],
+  "productosCarrito": [
+    {
+      "categoria": "Supplies",
+      "nombre": "Aceite",
+      "precio": 8000,
+      "disponibilidad": "In stock",
+      "imagen": "https://exitocol.vtexassets.com/arquivos/ids/13929565/Aceite-Vegetal-FRESCAMPO-3000-ml-3257073_a.jpg?v=637944648796900000",
+      "id": 2
+    },
+    {
+      "categoria": "Frutas",
+      "nombre": "Piña",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3415/w700_pi_a.jpg",
+      "id": 4
+    },
+    {
+      "categoria": "Cleanliness",
+      "nombre": "Toallas de cocina",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://supermercadolaestacion.com/30535-thickbox_default/toallas-para-cocina-acolchamax-extra-grande-decoradas-familia-x-80-unidades.jpg",
+      "id": 5
+    },
+    {
+      "categoria": "Grain",
+      "nombre": "Frijoles",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://us.123rf.com/450wm/lenazajchikova/lenazajchikova2003/lenazajchikova200300083/142758637-frijoles-pintos-dispersos-de-bolsa-de-tela-de-saco-aislado-en-blanco.jpg?ver=6",
+      "id": 6
+    },
+    {
+      "categoria": "Snacks",
+      "nombre": "Papas margaritas",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_papa_margarita_105gr_limon_pasabocas_700x700.jpg?v=1620489568",
+      "id": 7
+    },
+    {
+      "categoria": "Vegetables",
+      "nombre": "Bolsa de tomates",
+      "precio": 10000,
+      "disponibilidad": "In stock",
+      "imagen": "https://mercaldas.vtexassets.com/arquivos/ids/230423-800-auto?v=637840706684100000&width=800&height=auto&aspect=true",
+      "id": 8
+    },
+    {
+      "categoria": "Frutas",
+      "nombre": "Piña",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3415/w700_pi_a.jpg",
+      "id": 9
+    },
+    {
+      "categoria": "Vegetables",
+      "nombre": "Platano",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0267/9200/1582/products/Platano-Verde-x-1-kg.jpg?v=1594141605",
+      "id": 10
+    }
+  ],
+  "productosFavoritos": [
+    {
+      "id": 6,
+      "categoria": "Grain",
+      "nombre": "Frijoles",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://us.123rf.com/450wm/lenazajchikova/lenazajchikova2003/lenazajchikova200300083/142758637-frijoles-pintos-dispersos-de-bolsa-de-tela-de-saco-aislado-en-blanco.jpg?ver=6"
+    },
+    {
+      "id": 7,
+      "categoria": "Frutas",
+      "nombre": "Piña",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://www.gastronomiavasca.net/uploads/image/file/3415/w700_pi_a.jpg"
+    },
+    {
+      "id": 8,
+      "categoria": "Cleanliness",
+      "nombre": "Toallas de cocina",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://supermercadolaestacion.com/30535-thickbox_default/toallas-para-cocina-acolchamax-extra-grande-decoradas-familia-x-80-unidades.jpg"
+    },
+    {
+      "id": 9,
+      "categoria": "Vegetables",
+      "nombre": "Platano",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0267/9200/1582/products/Platano-Verde-x-1-kg.jpg?v=1594141605"
+    },
+    {
+      "categoria": "Snacks",
+      "nombre": "Papas margaritas",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_papa_margarita_105gr_limon_pasabocas_700x700.jpg?v=1620489568",
+      "id": 10
+    },
+    {
+      "categoria": "Vegetables",
+      "nombre": "Cebolla",
+      "precio": 5000,
+      "disponibilidad": "In stock",
+      "imagen": "https://cdn.shopify.com/s/files/1/0737/5696/7232/products/cebolla-cabezona-organica.jpg?v=1681861244",
+      "id": 11
+    }
+  ]
+}

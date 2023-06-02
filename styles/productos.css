@@ -1,0 +1,352 @@
+/* header */
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    height: 170px;
+    background-color: white;
+}
+
+.headerA {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(40, 162, 99);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoA {
+    margin-left: 70px;
+    display: flex;
+    gap: 8px;
+}
+
+.textoB {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bandera {
+    height: 15px;
+}
+
+.headerB {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+}
+
+.menuHeaderB{
+    display: none;
+}
+
+.logoHeader {
+    height: 70%;
+}
+
+.mapa_busquedaHeader {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.mapaHeader {
+    width: 30px;
+    height: 70%;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    box-sizing: border-box;
+    border: 3px solid white;
+    outline: 1px solid rgb(172, 172, 172);
+}
+
+.inputHeader {
+    width: 70%;
+    height: 72%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    padding-left: 10px;
+}
+
+.busquedaHeader {
+    height: 72%;
+    width: 30px;
+    margin-left: 0;
+    padding-top: 4px;
+    padding-left: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(255, 165, 0);
+    color: white;
+}
+
+.iconosHeader {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.headerC {
+    height: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+
+.categoriasHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(40, 162, 99);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 90%;
+    width: 14%;
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+.navHeader {
+    display: flex;
+    gap: 14px;
+    margin-left: 25px;
+}
+
+.btnNav {
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 15px;
+}
+
+#vinculo{
+    text-decoration: none;
+    color: black;
+}
+
+.rayoHeader {
+    border-radius: 5px;
+    background-color: rgb(201, 232, 216);
+    color: rgb(40, 162, 99);
+    height: 30px;
+    width: 30px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-left: 0px;
+}
+
+/* tarjetas */
+
+main {
+    height: 100%;
+    background-color: white
+}
+#principal__productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenedorTarjetas{
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3% 0%; 
+}
+
+.tarjeta__contenedor{
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    width: 30%;
+    margin: 1%;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.contenedor_imagen{
+    height: 60%;
+    padding: 10px;
+}
+
+.contenedor_categoria{
+    font-size: 14px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.contenedor_titulo{
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 2px;
+}
+
+.contenedor_precio{
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 2px;
+    color: rgb(38, 217, 124);
+    font-weight: bolder;
+}
+
+.contenedor_disponibilidad{
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 2px;
+}
+
+.contenedor_botonAdd{
+    width: 90%;
+    margin: 8px;
+    margin-left: 10px;
+    border: 1px rgb(62, 62, 62);
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(64, 64, 64);
+    transition: background-color .2s;
+}
+
+.contenedor_botonAdd:hover{
+    background-color: rgb(107, 215, 159);
+}
+
+.textoAdd{
+    margin-left: 40%;
+}
+
+.plusTarjetas{
+    color: rgb(33, 193, 111); 
+    border-radius: 25px;
+    background-color: rgb(228, 228, 228);
+}
+
+
+
+
+
+/* footer */
+footer{
+    height: 35%;
+    width: 100%;
+    background-color: lightgray;
+    font-family: 'Kanit', sans-serif;
+}
+.footer__principal{
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+}
+.footer__div1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.footer__div{
+    margin-left: 15px;
+}
+
+.div__titulo{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.div__categoriaspan{
+    line-height: 172%;
+    display: flex;
+    flex-direction: column;
+}
+.div__subtitulos{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.div__parrafo{
+    width: 80%;
+    line-height: 19px;
+}
+.div__container{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+    flex-direction: row;
+}
+.figure__contacto{
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+    align-items: center;
+    margin-left: 0;
+}
+.resaltar{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.div__linea{
+    margin: 15px 0px;
+}
+.footer__secundaria{
+    display: flex;
+    margin-top: 5%;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgb(101, 97, 97);
+}
+.metodosPago{
+    width: 40px;
+    height: auto;
+    border: 1px solid rgb(101, 97, 97);
+    height: 25px;
+}
+.redes{
+    width: 20px;
+}
+.div__banco{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.botones__compra{
+    height: 40px;
+}
+.fast{
+    color: green;
+}
+.punto{
+    color: green;
+}
+

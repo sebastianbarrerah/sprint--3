@@ -1,0 +1,45 @@
+.principal__formulario{
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 150px;
+}
+.separador{
+    width: 100%;
+    background-color: rgb(196, 197, 186);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    height: 29px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+label{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: start;
+}
+.div__separador{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+#btn1{
+    width: 9%;
+    height: 40px;
+    background-color: azure;
+    border-radius: 9px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+#btn2{
+    width: 9%;
+    height: 40px;
+    background-color: rgb(197, 73, 66);
+    border-radius: 9px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
